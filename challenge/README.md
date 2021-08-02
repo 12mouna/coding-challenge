@@ -8,4 +8,17 @@ I wanted to make it more general so with this function you can work also with st
 
 Also I did a condition to make sure that the type of the initial value and the list are the same because with the type 'any' for exemple  we can have an initial value number and a list of string which is not correct.
 
+# start function
+
+Generate an Access Token using this link : https://github.com/settings/tokens
+
+Clone repo and install dependencies:
+
+> git clone https://github.com/12mouna/coding-challenge/challenge/
+
+> cd /challenge
+
+> tsc challenge.ts
+
+> node challenge.js
 

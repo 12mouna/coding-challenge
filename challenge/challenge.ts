@@ -1,4 +1,4 @@
-const forld = (startingValue:any,operation:Function,list:Array<any>) => {
+const forld= (startingValue:any,operation:Function,list:Array<any>) => {
     if (list.length === 0) {
         return startingValue
     }
@@ -12,4 +12,6 @@ const forld = (startingValue:any,operation:Function,list:Array<any>) => {
      return startingValue
     }
 }
+// exemple 
 const result = forld(0,(a:any, b:any) => a + b,[1,2,3,4])
+console.log(result)
